@@ -1,0 +1,42 @@
+html,
+body {
+  width: 18rem;
+  padding: 0;
+  margin: 0;
+}
+
+#popup-content {
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.environment:hover {
+  background-color: #cff2f2;
+}
+
+.environment {
+  background-color: #e5f2f2;
+}
+
+.reset {
+  background-color: #fbfbc9;
+}
+
+.reset:hover {
+  background-color: #eaea9d;
+}

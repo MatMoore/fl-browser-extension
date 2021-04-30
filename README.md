@@ -1,10 +1,24 @@
 # FL Browser Extension
 
-This is a browser extension for software engineers that highlights which environment you are working in.
+This is a browser extension for web developers that highlights which environment you are working in.
 
-It will add a solid red border around all pages in production.
+Note: This project is currently experimental and hardcodes FutureLearn URLs. You will need to fork it to use with other websites.
+
+## Features
+
+### Warning when you are on production
+
+The extension will add a solid red border around all pages in production.
+
+![Red border on production](./screenshots/border.png)
 
 On non-production environments, it will add a dashed border.
+
+### Switching between environments
+
+The extension also adds a menu button which can be used to switch between environments.
+
+![Buttons for switching environment](./screenshots/popup.png)
 
 ## Installation
 
@@ -30,3 +44,7 @@ installed from packages signed by Mozilla.
 4. Select the `manifest.json`
 
 Source: [Your first extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension).
+
+## Licence
+
+Code for this extension is released under the [MIT license](LICENSE).
