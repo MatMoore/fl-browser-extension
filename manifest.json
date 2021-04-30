@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "FutureLearn browser extension",
+  "version": "0.1",
+
+  "description": "Extension for FutureLearn engineers to quickly identify and switch between environments",
+
+  "icons": {
+    "72": "icons/apple-touch-icon-72x72.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.futurelearn.com/*", "*://localhost/*"],
+      "js": ["extension.js"]
+    }
+  ]
+}
